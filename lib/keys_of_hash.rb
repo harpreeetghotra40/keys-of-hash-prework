@@ -3,7 +3,7 @@ class Hash
     # code goes here
     array = []
     arguments.each do |x|
-      x.each do |k, v|
+      self.each do |k, v|
         if v == x
           array << k
         end
